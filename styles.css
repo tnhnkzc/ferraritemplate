@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: auto;
+  background-color: black;
+}
+.background {
+  background-image: url(images/Plan\ de\ travail\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 1000px;
+}
+.imgbackground {
+  size: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.logo {
+  width: 20%;
+  margin-top: 5px;
+  position: absolute;
+}
+nav ul li {
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+.list-1 {
+  display: flex;
+}
+.list-1 li {
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.list-1 li a {
+  text-decoration: none;
+  color: white;
+}
+.list-2 {
+  display: flex;
+}
+.list-2 li {
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.list-2 li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-1 {
+  margin: auto;
+}
+.nav-2 {
+  margin: auto;
+}
+.list-1 a:hover {
+  color: red;
+  transition: 1s all;
+}
+.list-2 a:hover {
+  color: red;
+  transition: 1s all;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+}
+.video-ferrari {
+  width: 100%;
+  height: 1000px;
+}
+.racing {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+/*--Footer--*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.fas {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  float: right;
+  font-size: 50px;
+  color: white;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.fas:hover {
+  color: red;
+  transition: 1s all;
+}
+.facebook {
+  font-size: 32px;
+  color: white;
+  padding: 5px;
+}
+.instagram {
+  font-size: 32px;
+  color: white;
+  padding: 5px;
+}
+.twitter {
+  font-size: 32px;
+  color: white;
+  padding: 5px;
+}
+.youtube {
+  font-size: 32px;
+  color: white;
+  padding: 5px;
+}
+.facebook:hover {
+  color: red;
+  transition: 1s all;
+}
+.instagram:hover {
+  color: red;
+  transition: 1s all;
+}
+.twitter:hover {
+  color: red;
+  transition: 1s all;
+}
+.youtube:hover {
+  color: red;
+  transition: 1s all;
+}
+.linked-in {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+}
+.linked-in:hover {
+  color: red;
+  transition: 1s all;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+}
+.conteneur-1 {
+  width: auto;
+  height: 750px;
+  display: flex;
+}
+.conteneurracing {
+  width: auto;
+  height: 1000px;
+  background-image: url(images/racing-g39e6f39e3_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  align-self: center;
+  background-position: center;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+#racing {
+  float: left;
+}
+.racing-info {
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  color: #6d071a;
+  padding-left: 10px;
+  margin-top: 125px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  float: left;
+  border: rgba(245, 245, 220, 0.51) 2px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgba(245, 245, 220, 0.51);
+  opacity: 0.8;
+}
+.universe {
+  width: auto;
+  height: 1000px;
+  background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+.histoire-texte {
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  color: #6d071a;
+  padding-left: 5px;
+  margin-top: 225px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  float: right;
+  border: rgba(245, 245, 220, 0.51) 2px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgba(245, 245, 220, 0.51);
+}
+.corporate {
+  width: auto;
+  height: 1000px;
+  background-image: url(images/pexels-lex-ger-3642618.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.corporate-info {
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  color: #6d071a;
+  padding-left: 10px;
+  margin-top: 250px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  float: left;
+  border: rgba(245, 245, 220, 0.51) 2px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgba(245, 245, 220, 0.51);
+  opacity: 0.9;
+}
