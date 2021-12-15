@@ -7,7 +7,7 @@ body {
   background-color: black;
 }
 .background {
-  background-image: url(ferraritemplate/images/Plan\ de\ travail\ 1.png);
+  background-image: url(images/Plan\ de\ travail\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
@@ -173,7 +173,7 @@ h1 {
 .conteneurracing {
   width: auto;
   height: 1000px;
-  background-image: url(ferraritemplate/images/racing-g39e6f39e3_1920.jpg);
+  background-image: url(images/racing-g39e6f39e3_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
@@ -205,7 +205,7 @@ h1 {
 .universe {
   width: auto;
   height: 1000px;
-  background-image: url(ferraritemplate/images/oldtimer-g812c1acd7_1920.jpg);
+  background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -231,7 +231,7 @@ h1 {
 .corporate {
   width: auto;
   height: 1000px;
-  background-image: url(ferraritemplate/images/pexels-lex-ger-3642618.jpg);
+  background-image: url(images/pexels-lex-ger-3642618.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
