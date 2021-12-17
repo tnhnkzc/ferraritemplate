@@ -564,10 +564,11 @@ h1 {
 .histoire-texte {
   font-family: "Montserrat", sans-serif;
   width: 50%;
+  height: %100;
   color: #6d071a;
   padding-left: 5px;
   margin-top: 225px;
-  font-size: 16px;
+  font-size: 10px;
   font-weight: 600;
   line-height: 25px;
   float: right;
@@ -604,4 +605,5 @@ h1 {
   margin-right: 10px;
   background-color: rgba(245, 245, 220, 0.51);
   opacity: 0.9;
+}
 }
