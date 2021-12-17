@@ -17,52 +17,33 @@ body {
 .imgbackground {
   size: 100%;
 }
-.header {
+.nav-links {
   display: flex;
   justify-content: center;
   justify-items: center;
 }
-
-.logo {
-  width: 20%;
-  margin-top: 5px;
+nav img {
+  width: 300px;
   position: absolute;
 }
 nav ul li {
   list-style: none;
   font-family: "Montserrat", sans-serif;
 }
-.list-1 {
+ul {
   display: flex;
 }
-.list-1 li {
+ul li {
   padding-top: 100px;
   padding-right: 50px;
   padding-left: 50px;
 }
-.list-1 li a {
-  text-decoration: none;
+
+ul li a {
   color: white;
-}
-.list-2 {
-  display: flex;
-}
-.list-2 li {
-  padding-top: 100px;
-  padding-right: 50px;
-  padding-left: 50px;
-}
-.list-2 li a {
   text-decoration: none;
-  color: white;
 }
-.nav-1 {
-  margin: auto;
-}
-.nav-2 {
-  margin: auto;
-}
-.list-1 a:hover {
+ul a:hover {
   color: red;
   transition: 1s all;
 }
@@ -76,6 +57,7 @@ h1 {
   margin-top: 250px;
   font-family: "Dancing Script", cursive;
   font-weight: 400;
+  font-size: 36px;
 }
 .video-ferrari {
   width: 100%;
@@ -249,13 +231,7 @@ h1 {
   opacity: 0.9;
 }
 @media only screen and (max-width: 600px) {
-  * {
-    margin: 0;
-    box-sizing: border-box;
-  }
   body {
-    overflow: auto;
-    overflow-x: hidden;
     background-color: black;
   }
   .background {
@@ -269,66 +245,74 @@ h1 {
   .imgbackground {
     size: auto;
   }
-  .header {
-    display: flex;
-    justify-content: left;
-  }
-
   .logo {
-    justify-self: left;
-    width: 25%;
+    align-self: center;
+    width: 40%;
   }
-  .header {
+  ul {
+    height: 100vh;
+  }
+  .nav-links {
     display: flex;
     flex-direction: column;
   }
-  nav ul li {
-    list-style: none;
-    font-family: "Montserrat", sans-serif;
-  }
-  .list-1 {
+  nav {
     display: flex;
     flex-direction: column;
   }
-  .list-1 li {
-    padding-top: 20px;
-  }
-  .list-1 li a {
-    text-decoration: none;
+  nav ul li a {
     color: white;
+    text-decoration: none;
   }
-  .list-2 {
+  .nav-links {
+    position: fixed;
+    background: #c4151c;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  nav #menubar {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: right;
+  }
+  ul {
     display: flex;
     flex-direction: column;
   }
-  .list-2 li {
-    padding-top: 20px;
-    display: flex;
-    margin: auto;
+  ul li {
+    padding: 5px !important;
   }
-  .list-2 li a {
-    text-decoration: none;
+  .nav-links ul {
+    padding: 30px;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  ul li a:hover {
+    font-size: 20px;
     color: white;
-  }
-  .nav-1 {
-    margin: auto;
-    margin-top: 50px;
-  }
-  .nav-2 {
-    margin: auto;
-  }
-  .list-1 a:hover {
-    color: red;
-    transition: 1s all;
-  }
-  .list-2 a:hover {
-    color: red;
     transition: 1s all;
   }
   h1 {
     color: white;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
     padding-bottom: 200px;
     font-family: "Dancing Script", cursive;
     font-weight: 400;
@@ -351,28 +335,28 @@ h1 {
     width: fit-content;
     height: auto;
     background-image: url(images/racing-g39e6f39e3_1920.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    border-radius: 10px;
-    margin-top: 4px;
+    display: flex;
   }
   #racing {
     width: fit-content;
-    height: auto;
+    height: 654px;
   }
   .racing-info {
     font-family: "Montserrat", sans-serif;
-    font-size: smaller;
+    font-size: 14px;
+    line-height: 25px;
     height: auto;
     width: fit-content;
     color: #6d071a;
     padding-left: 10px;
-    margin-top: 125px;
+    margin-top: 50px;
     margin-left: 10px;
     font-weight: 600;
     float: left;
-    border: rgba(245, 245, 220, 0.51) 2px solid;
+    border: transparent 2px solid;
     border-radius: 10px;
     margin-right: 10px;
     background-color: rgba(245, 245, 220, 0.51);
@@ -380,7 +364,7 @@ h1 {
   }
   .universe {
     width: fit-content;
-    height: auto;
+    height: 654px;
     background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -395,7 +379,7 @@ h1 {
     width: fit-content;
     color: #6d071a;
     padding-left: 5px;
-    font-size: 5px;
+    font-size: 14px;
     font-weight: 600;
     float: right;
     border: rgba(245, 245, 220, 0.51) 2px solid;
@@ -405,7 +389,7 @@ h1 {
   }
   .corporate {
     width: fit-content;
-    height: auto;
+    height: 654px;
     background-image: url(images/pexels-lex-ger-3642618.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -513,97 +497,8 @@ h1 {
     transition: 1s all;
   }
 }
-.conteneur-1 {
-  width: auto;
-  height: 750px;
-  display: flex;
+@media only screen and (min-width: 600px) {
+  nav .fa {
+    visibility: hidden;
+  }
 }
-.conteneurracing {
-  width: auto;
-  height: 1000px;
-  background-image: url(images/racing-g39e6f39e3_1920.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: auto;
-  align-self: center;
-  background-position: center;
-  border-radius: 10px;
-  margin-top: 4px;
-}
-#racing {
-  float: left;
-}
-.racing-info {
-  font-family: "Montserrat", sans-serif;
-  width: 50%;
-  color: #6d071a;
-  padding-left: 10px;
-  margin-top: 125px;
-  margin-left: 10px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 25px;
-  float: left;
-  border: rgba(245, 245, 220, 0.51) 2px solid;
-  border-radius: 10px;
-  margin-right: 10px;
-  background-color: rgba(245, 245, 220, 0.51);
-  opacity: 0.8;
-}
-.universe {
-  width: auto;
-  height: 1000px;
-  background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  opacity: 0.9;
-  border-radius: 10px;
-  margin-top: 4px;
-}
-.histoire-texte {
-  font-family: "Montserrat", sans-serif;
-  width: 50%;
-  height: auto;
-  color: #6d071a;
-  padding-left: 5px;
-  margin-top: 225px;
-  font-size: 10px;
-  font-weight: 600;
-  line-height: 25px;
-  float: right;
-  border: rgba(245, 245, 220, 0.51) 2px solid;
-  border-radius: 10px;
-  margin-right: 10px;
-  background-color: rgba(245, 245, 220, 0.51);
-}
-.corporate {
-  width: auto;
-  height: 1000px;
-  background-image: url(images/pexels-lex-ger-3642618.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-
-  border-radius: 10px;
-  margin-top: 4px;
-}
-
-.corporate-info {
-  font-family: "Montserrat", sans-serif;
-  width: 50%;
-  color: #6d071a;
-  padding-left: 10px;
-  margin-top: 250px;
-  margin-left: 10px;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 25px;
-  float: left;
-  border: rgba(245, 245, 220, 0.51) 2px solid;
-  border-radius: 10px;
-  margin-right: 10px;
-  background-color: rgba(245, 245, 220, 0.51);
-  opacity: 0.9;
-}
-
