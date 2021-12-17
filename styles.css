@@ -1,16 +1,17 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 body {
   overflow: auto;
   background-color: black;
 }
 .background {
-  background-image: url(Plan\ de\ travail\ 1.png);
+  background-image: url(images/Plan\ de\ travail\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: auto;
+  width: 100%;
   height: 1000px;
 }
 .imgbackground {
@@ -154,15 +155,362 @@ h1 {
   color: red;
   transition: 1s all;
 }
-@media only screen and (max-width: 768px) {
+
+.conteneur-1 {
+  width: auto;
+  height: 750px;
+  display: flex;
+}
+.conteneurracing {
+  width: auto;
+  height: 1000px;
+  background-image: url(images/racing-g39e6f39e3_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  align-self: center;
+  background-position: center;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+#racing {
+  float: left;
+}
+.racing-info {
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  color: #6d071a;
+  padding-left: 10px;
+  margin-top: 125px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  float: left;
+  border: rgba(245, 245, 220, 0.51) 2px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgba(245, 245, 220, 0.51);
+  opacity: 0.8;
+}
+.universe {
+  width: auto;
+  height: 1000px;
+  background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin-top: 4px;
+}
+.histoire-texte {
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  color: #6d071a;
+  padding-left: 5px;
+  margin-top: 225px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  float: right;
+  border: rgba(245, 245, 220, 0.51) 2px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgba(245, 245, 220, 0.51);
+}
+.corporate {
+  width: auto;
+  height: 1000px;
+  background-image: url(images/pexels-lex-ger-3642618.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+
+  border-radius: 10px;
+  margin-top: 4px;
+}
+
+.corporate-info {
+  font-family: "Montserrat", sans-serif;
+  width: 50%;
+  color: #6d071a;
+  padding-left: 10px;
+  margin-top: 250px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  float: left;
+  border: rgba(245, 245, 220, 0.51) 2px solid;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgba(245, 245, 220, 0.51);
+  opacity: 0.9;
+}
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: black;
+  }
+  .background {
+    background-image: url(images/Plan\ de\ travail\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    height: auto;
+    background-position: center;
+  }
+  .imgbackground {
+    size: auto;
+  }
+  .header {
+    display: flex;
+    justify-content: left;
+  }
+
+  .logo {
+    justify-self: left;
+    width: 25%;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul li {
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  .list-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-1 li {
+    padding-top: 20px;
+  }
+  .list-1 li a {
+    text-decoration: none;
+    color: white;
+  }
+  .list-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-2 li {
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+  }
+  .list-2 li a {
+    text-decoration: none;
+    color: white;
+  }
+  .nav-1 {
+    margin: auto;
+    margin-top: 50px;
+  }
+  .nav-2 {
+    margin: auto;
+  }
+  .list-1 a:hover {
+    color: red;
+    transition: 1s all;
+  }
+  .list-2 a:hover {
+    color: red;
+    transition: 1s all;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 200px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .video-ferrari {
+    width: 100%;
+    height: 500px;
+  }
+  .racing {
+    width: 500px;
+    color: white;
+    text-align: center;
+  }
+  .conteneur-1 {
+    width: fit-content;
+    height: auto;
+  }
+  .conteneurracing {
+    width: fit-content;
+    height: auto;
+    background-image: url(images/racing-g39e6f39e3_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 4px;
+  }
+  #racing {
+    width: fit-content;
+    height: auto;
+  }
+  .racing-info {
+    font-family: "Montserrat", sans-serif;
+    font-size: smaller;
+    height: auto;
+    width: fit-content;
+    color: #6d071a;
+    padding-left: 10px;
+    margin-top: 125px;
+    margin-left: 10px;
+    font-weight: 600;
+    float: left;
+    border: rgba(245, 245, 220, 0.51) 2px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgba(245, 245, 220, 0.51);
+    opacity: 0.8;
+  }
+  .universe {
+    width: fit-content;
+    height: auto;
+    background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-top: 4px;
+  }
+  .histoire-texte {
+    font-family: "Montserrat", sans-serif;
+    width: fit-content;
+    color: #6d071a;
+    padding-left: 5px;
+    font-size: 5px;
+    font-weight: 600;
+    float: right;
+    border: rgba(245, 245, 220, 0.51) 2px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgba(245, 245, 220, 0.51);
+  }
+  .corporate {
+    width: fit-content;
+    height: auto;
+    background-image: url(images/pexels-lex-ger-3642618.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 4px;
+  }
+
+  .corporate-info {
+    font-family: "Montserrat", sans-serif;
+    width: auto;
+    height: auto;
+    color: #6d071a;
+    padding-left: 10px;
+    margin-top: 250px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    float: left;
+    border: rgba(245, 245, 220, 0.51) 2px solid;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: rgba(245, 245, 220, 0.51);
+    opacity: 0.9;
+  }
+  /*--Footer--*/
   .footer {
-    position: fixed;
+    position: block;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
     margin: auto;
+    font-size: 16px;
+  }
+  .fas {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    float: right;
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .fas:hover {
+    color: red;
+    transition: 1s all;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+  .facebook {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+  }
+  .instagram {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+  }
+  .twitter {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+  }
+  .youtube {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+  }
+  .facebook:hover {
+    color: red;
+    transition: 1s all;
+  }
+  .instagram:hover {
+    color: red;
+    transition: 1s all;
+  }
+  .twitter:hover {
+    color: red;
+    transition: 1s all;
+  }
+  .youtube:hover {
+    color: red;
+    transition: 1s all;
+  }
+  .linked-in {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+  }
+  .linked-in:hover {
+    color: red;
+    transition: 1s all;
   }
 }
 .conteneur-1 {
@@ -205,7 +553,7 @@ h1 {
 .universe {
   width: auto;
   height: 1000px;
-  background-image: url(oldtimer-g812c1acd7_1920.jpg);
+  background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -231,7 +579,7 @@ h1 {
 .corporate {
   width: auto;
   height: 1000px;
-  background-image: url(pexels-lex-ger-3642618.jpg);
+  background-image: url(images/pexels-lex-ger-3642618.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
