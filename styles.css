@@ -248,6 +248,7 @@ h1 {
   .logo {
     align-self: center;
     width: 40%;
+    margin-top: 10px;
   }
   ul {
     height: 100vh;
