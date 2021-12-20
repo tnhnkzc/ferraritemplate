@@ -430,6 +430,7 @@ h1 {
     text-align: center;
     margin: auto;
     font-size: 16px;
+    margin-bottom: 10px;
   }
   .fas {
     position: fixed;
@@ -439,7 +440,7 @@ h1 {
     font-size: 25px;
     color: white;
     margin-right: 15px;
-    margin-bottom: 10px;
+    
   }
   .fas:hover {
     color: red;
