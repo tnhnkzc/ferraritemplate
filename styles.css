@@ -239,7 +239,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     width: fit-content;
-    height: 654px;
+    height: 600px;
     background-position: center;
   }
   .imgbackground {
@@ -342,7 +342,7 @@ h1 {
   }
   #racing {
     width: fit-content;
-    height: 654px;
+    height: 600px;
   }
   .racing-info {
     font-family: "Montserrat", sans-serif;
@@ -364,7 +364,7 @@ h1 {
   }
   .universe {
     width: fit-content;
-    height: 654px;
+    height: 600px;
     background-image: url(images/oldtimer-g812c1acd7_1920.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -389,7 +389,7 @@ h1 {
   }
   .corporate {
     width: fit-content;
-    height: 654px;
+    height: 600px;
     background-image: url(images/pexels-lex-ger-3642618.jpg);
     background-size: cover;
     background-repeat: no-repeat;
