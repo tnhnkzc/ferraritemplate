@@ -430,7 +430,7 @@ h1 {
     text-align: center;
     margin: auto;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
   }
   .fas {
     position: fixed;
@@ -446,14 +446,7 @@ h1 {
     color: red;
     transition: 1s all;
   }
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    margin: auto;
-  }
+  
   .facebook {
     font-size: 20px;
     color: white;
